@@ -34,5 +34,11 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  css: [
+    'bulma',
+    // SCSS file in the project
+    '@/assets/scss/main.scss'
+  ]
 }
