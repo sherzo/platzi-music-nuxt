@@ -40,5 +40,12 @@ module.exports = {
     'bulma',
     // SCSS file in the project
     '@/assets/scss/main.scss'
-  ]
+  ],
+
+  postcss : { 
+    plugins : {
+       'postcss-custom-properties' :  false 
+    } 
+  } 
+  
 }
