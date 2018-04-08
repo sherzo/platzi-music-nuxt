@@ -41,11 +41,7 @@ module.exports = {
     // SCSS file in the project
     '@/assets/scss/main.scss'
   ],
+  postcss: { plugins: { 'postcss-custom-properties': false } },
 
-  postcss : { 
-    plugins : {
-       'postcss-custom-properties' :  false 
-    } 
-  } 
-  
+  plugins: ['~plugins/filters.js']
 }
